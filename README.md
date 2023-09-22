@@ -17,6 +17,8 @@
 
 <img src="_img/imagem-readme-4.png" width="80%">
 
+Adicionamos na linha 43 o link de ligação no javascript para que seja ligado todas as funcionalidades do html no javascript.
+
 
 ## ⚙️Tecnologias utilizadas
 * As tecnologias utilizadas no desenvolvimento desse projeto foram:
