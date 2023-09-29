@@ -15,9 +15,9 @@
 
 * Editamos e removemos o e-mail, senha, Check me out e adicionamos o número, mechemos no elemento col para alterar a largura da coluna, colocamos o CEP antes de tudo para que quando for adicionado o CEP sejam preenchidas o restante das colunas.
 
-<img src="_img/imagem-readme-4.png" width="80%">
+<img src="_img/imagem-readme-4.png" width="80%">  
 
-Adicionamos na linha 43 o link de ligação no javascript para que seja ligado todas as funcionalidades do html no javascript.
+* Adicionamos na linha 43 o link de ligação no javascript para que seja ligado todas as funcionalidades do html no javascript.
 
 
 ## ⚙️Tecnologias utilizadas
