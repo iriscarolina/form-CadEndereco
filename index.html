@@ -8,37 +8,79 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <h1>Cadastro de endereço</h1>
+  <div class="container">
     <form class="row g-3">
+      <h1>Cadastro</h1>
+  <div class="col-4">
+    <label for="inputZip" class="form-label">Nome</label>
+    <input type="text" class="form-control border border-primary" id="nome">
+  </div> 
+    <div class="col-4">
+      <label for="inputZip" class="form-label">E-mail</label>
+      <input type="text" class="form-control border border-primary" id="E-mail">
+      </div>  
+      <div class="col-4">
+        <label for="inputZip" class="form-label">Data nascimento</label>
+        <input type="date" class="form-control border border-primary" id="data">
+        </div>
+          <div class="col-4">
+            <label for="inputZip" class="form-label">Numero</label>
+            <input type="text" class="form-control border border-primary" id="numero">
+            </div>
+            <span class="border border-info-subtle form-control">
+              <label for="">Sexo</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">Masculino</label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">Feminino</label>
+              </div>
+            </span>
+            <div class="col-6">
+              <label for="senha" class="form-label">Senha</label><br> 
+              <input type="password" class="form-control border border-primary" id="senha"><br>  
+            </div>  
+            <div class="col-6">  
+              <label for="confirmSenha" class="form-label">Confirme a Senha</label><br>
+              <input type="password" class="form-control border border-primary" id="confirmSenha"><br>
+            </div>
+    </form><br>
+    </div>
+    
+    <div class="container">
+    <form class="row g-3">
+      <h1>Cadastro de endereço</h1>
         <div class="col-4">
             <label for="inputZip" class="form-label">CEP</label>
-            <input type="text" class="form-control" id="cep">
+            <input type="text" class="form-control border border-primary" id="cep" placeholder="00000000">
           </div><br>
         <div class="col-9">
-          <label for="inputAddress" class="form-label">endereço</label>
-          <input type="text" class="form-control" id="rua" placeholder="Rua Joaquim Nabuco">
+          <label for="inputAddress" class="form-label">Endereço</label>
+          <input type="text" class="form-control border border-primary" id="rua" placeholder="Rua Joaquim Nabuco">
         </div>
         <div class="col-3">
-            <label for="inputAddress" class="form-label">numero</label>
-            <input type="text" class="form-control" id="numero">
+            <label for="inputAddress" class="form-label">Número</label>
+            <input type="text" class="form-control border border-primary" id="numero">
           </div>
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Bairro</label>
-          <input type="text" class="form-control" id="bairro" placeholder="Apartment, studio, or floor">
+          <input type="text" class="form-control border border-primary" id="bairro" placeholder="Apartment, studio, or floor">
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Cidade</label>
-          <input type="text" class="form-control" id="cidade">
+          <input type="text" class="form-control border border-primary" id="cidade">
         </div>
         <div class="col-md-4">
           <label for="inputState" class="form-label">Estado</label>
-          <input id="estado" class="form-control">
+          <input id="estado" class="form-control border border-primary">
         </div>
         <div class="col-12">
           <button type="submit" class="btn btn-primary">Cadastrar</button>
         </div>
       </form>
-      
       <script type="text/javascript" src="./controller.js"></script>
+      </div>
 </body>
 </html>

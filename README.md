@@ -3,6 +3,7 @@
 ## 🚀 Descrição do projeto
 * O projeto foi produzido através de um link do bootstrap 5 onde podemos acessar pelo seguinte menu:
 
+
 <img src="_img/imagem readme.png" width="15%">
 
 * Viemos nos exemplos de formularios disponiveis no buutstrap e escolhemos o formulário forms e dentro de forms o layout
@@ -21,7 +22,7 @@
 
 * Adicionamos na linha 43 do html, o link de ligação no javascript para que seja ligado todas as funcionalidades do html no javascript.
 
-[11:18] MARIA FERNANDA CASTILHO RIBEIRO
+* Reutilizamos o código do ultimo trabalho que fizemos e adicionamos campos de cadastro, neste campo possui, nome, e-mail, data de nascimento, Telefone, senha, confirmação de senha e sexo, feito isso, mexemos nas linhas para mudar a  cor e organizamos a tela para se adaptar.
 
 ## ⚙️Funções
 
@@ -55,7 +56,9 @@ Tem a função de preencher formulário
     }
 
 Consumo da API da ViaCep  
-abre uma porta para acessar a URL  
+abre uma porta para acessar a URL
+ Função async: significa que o valor de retorno da função será visivel para a pessoas que está execultando, se a função der certo ou errado ela irá dar um retorno, uma Promise. (o que é promisse? representa a conclusão (ou falha) de uma operação assíncrona e seu valor resultante).
+função await: é uma função para esperar por uma promisse. função feth: vai se encaminhar para o link do viaCep e pegar os dados que estão lá, e trazer para o const dados. JSON tipo de linguagem 
 
     const pesquisarCep = async () => {
     limparFormulario();
@@ -78,7 +81,11 @@ JSON tipo de linguagem
     }
 Adiciona efeito DOM ao input do CEP para executar função pesquisarCEP  
 (o DOM é um tipo de caminho que irá te auxilar nos códigos.
-Para mais informações acesse o link da [mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction))
+Para mais informações acesse o link da [mozilla](https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model/Introduction))  
+``addEventListener``permite que você configure funções a serem chamadas quando um evento específico acontece, como, por exemplo, quando um usuário clica em um botão.
+
+tem menu de contexto
+
     document.getElementById('cep').addEventListener('focusout', pesquisarCep);    
 
 
